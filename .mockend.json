@@ -1,6 +1,11 @@
 {
   "Post": {
-    "title": { "string": {} },
+    "title": {
+      "string": [
+        "USD",
+        "EUR"
+      ]
+    },
     "comments": {
       "hasMany": "Comment"
     }
@@ -10,5 +15,8 @@
     "post": {
       "belongsTo": "Post"
     }
+  },
+  "exchange": {
+
   }
 }
